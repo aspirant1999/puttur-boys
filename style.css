@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 725px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+    }
+    .puttur{
+        top: 0;
+        background-color: rgb(252, 252, 252);
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        height: 3em;
+        width: 100%;
+        align-items: center;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+        font-family: "poppins",sans-serif;
+    }
+    .quote{
+        grid-column: 1/9;
+        display: flex;
+        margin-top: 15%;
+        font-family: 'Dancing Script', cursive;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.045em;
+        padding: 5%;
+        font-weight: 500;
+        }
+        .core{
+            width: 90%;
+            margin: auto;
+            margin-top: 6%;
+        }
+        .core h3{
+            grid-column: 1/4;
+            padding: 10px 0px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            border-bottom: 1px solid rgb(0, 0, 0);
+        }
+        .image{
+            width: 90%;
+            margin: auto;
+            margin-top: 5%;
+            background-color: #ECECEC;
+        }
+        .grid1{
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            overflow-x: hidden;
+            background-color:  #ECECEC;
+            margin-bottom: 10%;
+        }
+        .adarsh{
+            grid-column: 2/5;
+            grid-row: 1;
+            margin: 20%;
+            width: 100%;
+          
+        }
+
+        .grid1 img{
+            width: 80%;
+            border-radius: 100%;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+        }
+        .adarsh1{
+            grid-column: 8/11;
+            grid-row: 1;
+            margin: 10%;
+            margin-top: 50%;
+            width: 100%;
+          
+        }
+        .adarsh2{
+            grid-column: 1/4;
+            grid-row: 3;
+            margin-left: 20%;
+            margin-top: -10%;
+            width: 100%;
+        }
+        .adarsh3{
+            grid-column: 5/8;
+            grid-row: 3;
+            margin-top: 30%;
+            width: 100%;
+            margin-left: 30%;
+        }
+        .adarsh4{
+            grid-column: 10/13;
+            grid-row: 3;
+            margin-top: 30%;
+            margin-right: 20%;
+            width: 100%;
+            margin-bottom: 30%;
+        }
+        .adarsh5{
+            grid-column: 8/11;
+            grid-row: 4;
+            margin: 10%;
+            margin-top: 30%;
+            width: 100%;
+            margin-bottom: 30%;
+        }
+        .adarsh6{
+            grid-column: 2/5;
+            grid-row: 4;
+            margin: 20%;
+            width: 100%;
+            margin-bottom: 30%;
+        }
+        .adarsh7{
+            grid-column: 1/4;
+            grid-row: 5;
+            margin-left: 20%;
+            margin-top: 10%;
+            width: 100%;
+        }
+        .adarsh8{
+            grid-column: 5/8;
+            grid-row: 5;
+            margin-top: -25%;
+            width: 100%;
+            margin-left: 30%;
+        }
+        .adarsh9{
+            grid-column: 10/13;
+            grid-row: 5;
+            margin-top: 30%;
+            margin-right: 20%;
+            width: 100%;
+            margin-bottom: 30%;
+        }
+
+        .join{
+            background-color:#ECECEC ;
+            margin: auto;
+            width: 90%;
+
+        }
+
+        .want{
+            grid-column: 1/6;
+            grid-row: 1;
+            font-family: Raleway;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 16px;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            margin: 10px;
+
+        }
+        .we{
+            grid-column: 1/9;
+            font-family: Raleway;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 14px;
+            padding: 20px;
+
+        }
+        .joinnow{
+            grid-column: 4/6;
+            display: flex;
+            justify-content: center;
+            font-family: Raleway;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 14px;
+            border: 1px solid black;
+            border-radius: 25px;
+            padding: 10px;
+            margin-bottom: 20%;
+        }
+
+        footer{
+            font-size: 14px;
+            width: 100%;
+            margin: auto;
+            margin-top: 10%;
+            height: 3em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Raleway;
+            text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+        }
+        footer a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav-scrolled {
+            background-color: rgb(17, 17, 17);
+            box-shadow: 0 3px 20px rgba(24, 23, 23, 0.2);
+          }
+        
+        
+
+}
