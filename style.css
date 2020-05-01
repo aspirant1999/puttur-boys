@@ -184,7 +184,15 @@
             margin-bottom: 20%;
             color: black;
         }
-
+        
+        .youtube div{
+            display: flex;
+            font-family: Raleway;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 5%;
+        }
+        
         .join{
             background-color:#ECECEC ;
             margin: auto;
