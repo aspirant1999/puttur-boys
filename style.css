@@ -169,20 +169,10 @@
         padding: 5%;
         font-weight: 500;
         }
-        .memories a{
-            grid-column: 3/7;
-            display: flex;
-            justify-content: center;
-            text-decoration: none;
-            font-family: Raleway;
-            font-style: italic;
-            font-weight: 500;
-            font-size: 14px;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 10px;
-            margin-bottom: 20%;
-            color: black;
+       
+        .memories section{
+            grid-column: 1/9;
+            width: 100%;
         }
         
         .youtube div{
